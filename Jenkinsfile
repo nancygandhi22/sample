@@ -14,7 +14,7 @@ pipeline {
  		}
  		stage("Unit test") {
  			steps {
- 				sh "python3 example.py"
+ 				sh "python3 sample.py"
  			}
  		}
  	}
